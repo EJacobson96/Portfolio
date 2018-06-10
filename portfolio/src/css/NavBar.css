@@ -1,0 +1,50 @@
+.nav {
+    margin: 2.7em 0 0 0;
+    border-bottom: 1px dotted rgb(185, 184, 184);
+    display: flex;
+    justify-content: center;
+}
+
+.navElement {
+    text-decoration: none;
+    color:black;
+    font-size: 3vh;
+    margin-right: 1em;
+    font-weight: 100;
+}
+
+.navElement:hover {
+    color: rgb(158, 158, 158);
+}
+
+.nav .active {
+    color: rgb(158, 158, 158);
+}
+
+.portfolioName {
+    margin: 0 0 0 0;
+    padding: 0;
+    font-family: Avenir;
+    font-weight: 500;
+    font-size: 3vh;
+    text-decoration: none;
+    color: black;
+}
+
+@media (min-width: 860px) {
+    .nav {
+        display: inline-block;
+        width: 100%;
+        padding-bottom: .2em;
+    }
+
+    .portfolioName {
+        float: right;
+    }
+}
+
+@media (max-width: 860px) {
+    a {
+        text-decoration: none;
+    }
+}
