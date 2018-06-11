@@ -1,13 +1,8 @@
 import React, { Component } from 'react';
-import { Link, withRouter } from 'react-router-dom';
 
 import '../css/Project.css';
 
 class Project extends Component {
-    constructor(props) {
-        super(props)
-    }
-
     render() {
         let projects = this.props.projects.map((project) => {
                             return (
@@ -16,8 +11,29 @@ class Project extends Component {
                                     <div className='projectDetails'>
                                         <h2>{ project.Title }</h2>
                                         <p>{ project.Desc }</p>
-                                        <p>{ project.Technologies }</p>
-                                        <p className='projectSponsor'>{ project.Sponsor }</p>
+                                        { 
+                                            project.Technologies &&
+                                            <p>{ project.Technologies }</p>
+                                        }
+                                        { 
+                                            project.Sponsor &&
+                                            <p className='projectSponsor'>{ project.Sponsor }</p>
+                                        }
+                                        <div className='projectLinks'>
+                                            {
+                                                project.SourceCode && 
+                                                <a href={ project.SourceCode } target='_blank' className='projectLink'>Source Code</a> 
+                                            }
+                                            {
+                                                project.LiveSite &&
+                                                (project.LiveSite === 'Offline' ? <p>*Site is not currently being hosted</p> :
+                                                <a href={ project.LiveSite } target='_blank' className='projectLink'>Live Site</a>)
+                                            }
+                                            {
+                                                project.ProtoType &&
+                                                <a href={ project.ProtoType } target='_blank' className='projectLink'>View Prototype</a>
+                                            }
+                                        </div>
                                     </div>
                                 </div>
                             );

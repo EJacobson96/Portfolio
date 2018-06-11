@@ -1,3 +1,14 @@
 .workDesc {
-    margin: 3.5em 3.5em 0 3.5em;
+    margin: 7vh 28vh;
+    font-weight: 300;
+}
+
+.workDesc h5{
+    font-size: 1.2em;
+}
+
+@media (max-width: 1200px) {
+    .workDesc {
+        margin: 4em 2em;
+    }
 }

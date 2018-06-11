@@ -32,7 +32,7 @@ body {
 }
 
 @media (min-width: 860px) {
-  .container {
+  .contentContainer {
     margin: 0 14em;
   }
 }

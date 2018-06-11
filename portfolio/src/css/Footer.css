@@ -9,12 +9,22 @@
     margin-top: 3.5em;
 }
 
-.socialIcon img {
-    height: 30px;
-    width: 30px;
+.socialIcon {
+    margin-right: 1.5em;
+    text-decoration: none;
 }
 
-.socialIcon {
-    margin-right: .7em;
+.socialIcon a {
+    color: black;
+    opacity: 1;
+}
+
+.socialIcon a:hover {
     text-decoration: none;
+    opacity: .6;
+
+}
+
+.socialIcon i {
+    font-size: 2em;
 }

@@ -3,6 +3,7 @@
     border-bottom: 1px dotted rgb(185, 184, 184);
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .navElement {
@@ -26,7 +27,7 @@
     padding: 0;
     font-family: Avenir;
     font-weight: 500;
-    font-size: 3vh;
+    font-size: 3.4vh;
     text-decoration: none;
     color: black;
 }
@@ -47,4 +48,5 @@
     a {
         text-decoration: none;
     }
+
 }

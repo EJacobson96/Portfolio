@@ -4,9 +4,6 @@ import resume from '../documents/resume.pdf';
 import '../css/NavBar.css';
 
 class NavBar extends Component {
-    constructor(props) {
-        super(props)
-    }
 
     componentDidMount() {
         let navElements = document.getElementsByClassName('navElement');
