@@ -15,17 +15,27 @@
 }
 
 .imageContainer img {
-    transform: rotate(90deg);
     width: 100%;
 }
 
 .aboutDesc {
     flex-basis: 50%;
-    margin: 1em 2em;
+    margin: 2em 2em 1em 2em;
 }
 
 .aboutDesc {
     font-size: 14px;
+}
+
+.contact {
+    border-bottom: 1px solid rgba(131, 130, 130, .9);
+    color: rgba(131, 130, 130, .9);
+}
+
+.contact:hover {
+    text-decoration: none;
+    border-bottom: 1px solid rgba(131, 130, 130, .5);
+    color: rgba(131, 130, 130, .5);
 }
 
 @media (max-width: 1200px) {

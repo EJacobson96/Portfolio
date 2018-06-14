@@ -28,7 +28,7 @@ class Work extends Component {
                             Title: 'Milestone',
                             Img: milestone,
                             Desc: 'Milestone is a responsive web application that empowers youth and young adults experiencing '
-                            + 'unstable housing to a path a stability.',
+                            + 'unstable housing to a path of stability.',
                             Sponsor: "*Sponsored by the City of Seattle's Innovation & Performance Team",
                             Technologies: 'Technologies: React, Go, MongoDB, Docker, WebSockets',
                             SourceCode: 'https://github.com/EJacobson96/Milestone',
@@ -37,7 +37,7 @@ class Work extends Component {
                         {
                             Title: 'Typie-Bird',
                             Img: typieBird,
-                            Desc: 'Typie Bird is a multiplayer web-based typing game. Players up to 4 can share a single game '
+                            Desc: 'Typie Bird is a multiplayer web-based typing game. Up to 4 players can share a single game '
                             + 'room and play against each other. The first player to get to the finish line first wins!',
                             Technologies: 'Technologies: TypeScript, Canvas, Go, MongoDB, Docker, WebSockets',
                             SourceCode: '',
@@ -47,7 +47,7 @@ class Work extends Component {
                             Title: 'WeEat',
                             Img: weEat,
                             Desc: 'WeEat is a mobile app designed to connect food lovers to local chefs that specialize in cooking '
-                            + 'authentice cuisines. This was a UX project in my Rapid Prototyping class that was centered around usability testing.',
+                            + 'authentic cuisines. This was a UX project in my Rapid Prototyping class that was centered around usability testing.',
                             Technologies: 'Technologies: Figma, InVision',
                             SourceCode: '',
                             LiveSite: '',
@@ -58,7 +58,7 @@ class Work extends Component {
                             Img: movieCurator,
                             Desc: "A movie curating platform built using React, utilizing The Movie Database API. Check out what "
                             + "movies are currently in theatres and keep a personal list of all your favorites!",
-                            Technologies: 'Technologies: React, Firebase, The Movie Databae API',
+                            Technologies: 'Technologies: React, Firebase, The Movie Database API',
                             SourceCode: 'https://github.com/EJacobson96/movie-curator',
                             LiveSite: 'http://owenflannigan.me/movie-curator'
                         }
