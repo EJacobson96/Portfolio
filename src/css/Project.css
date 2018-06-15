@@ -16,11 +16,17 @@
     box-shadow: 1px 1px 1px 1px #888888;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: 5%;
     margin-bottom: 1.5em;
     position: relative;
     max-width: 400px;
     overflow: hidden;
 }
+
+.projectElement:hover {
+    box-shadow: 4px 4px 4px 4px rgb(180, 177, 177);
+    transform: translateY(-9px);
+  }
 
 .projectElement .projectOverlay {
     background: rgba(45, 64, 83, 0.7);
