@@ -60,7 +60,7 @@ class Work extends Component {
                             + "movies are currently in theatres and keep a personal list of all your favorites!",
                             Technologies: 'Technologies: React, Firebase, The Movie Database API',
                             SourceCode: 'https://github.com/EJacobson96/movie-curator',
-                            LiveSite: 'http://owenflannigan.me/movie-curator'
+                            LiveSite: 'http://owenflannigan.me/projects/movie-curator'
                         }
                     ] }
                 />
