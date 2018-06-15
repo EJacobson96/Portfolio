@@ -22,9 +22,12 @@
 .socialIcon a:hover {
     text-decoration: none;
     opacity: .6;
-
 }
 
 .socialIcon i {
     font-size: 2em;
+}
+
+.socialIcon:hover {
+    transform: translateY(-7px);
 }

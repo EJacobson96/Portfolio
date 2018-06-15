@@ -48,12 +48,11 @@
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1050px) {
     .about {
         flex-direction: column;
     }
     .imageContainer {
         flex-basis: 100%;
     }
-
 }
